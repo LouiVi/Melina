@@ -259,6 +259,7 @@ function Home( path, layContent )
     var lay = app.CreateLayout( "Linear", "FillXY,VCenter" );
     lay.Hide();
     layContent.AddChild( lay );
+    lay.SetBackColor( "#ffffff" )
     
     //Add a logo.
 	var img = app.CreateImage( "Img/gettyimages-117012363-612x612-removebg-preview.png", 1.175, -1, "Fixed,ScaleCenter,Resize,Alias" );
